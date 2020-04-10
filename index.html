@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wanderlust</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -13,43 +14,66 @@
     <div class="container">
         <h1><strong>Wanderlust</strong></h1>
         <img id="MTN" src="./img/mountains-2766-14039-550x550.png">
-        <h4>Enter in a location of your choice by State, City, or zipcode.</h4>
+        <h5>Enter in a location of your choice by State, City, or zipcode.</h5>
 
         <div class="row">
             <form class="col s12">
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
-                  <label for="textarea1">Textarea</label>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1"><i class="small material-icons">location_on</i></label>
+                    </div>
+                    <a class="waves-effect waves-light btn grey">Search</a>
                 </div>
-              </div>
             </form>
-          </div>
-          
-            <br>
-            <div id="searchContent" class="row">
-        <div class="col s12">This div is 12-columns wide on all screen sizes</div>
-        <div id="Map" class="col s6">6-columns (one-half)</div>
-        <div id="Places"class="col s6">6-columns (one-half)</div>
-      </div>
-
-
-
-
-
-
-
-    </div>
-            </div>
         </div>
-            
-            
-            
-            
-            
+        
+        <br>
+
+        <div class="row">
+                <div class="col s12 m5">
+                    <div class="card-panel grey">
+                        <div class="Map">
+                            <!--google map should go here-->   
+                        </div>
+                        <div class="card-content">
+                           
+                        </div>
+                        <div class="card-action">
+                            <img src="./img/google-maps.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m7">
+                    <div class="card-panel grey">
+                            <!--places in the map location should go here-->  
+                            <ul class="collection">
+                                <li class="collection-item">Place</li>
+                                <li class="collection-item">Place</li>
+                                <li class="collection-item">Place</li>
+                                <li class="collection-item">Place</li>
+                              </ul>
+                        </div>
+                        <div class="card-action">
+                            
+                        </div>
+                    </div>
+                </div>
 
 
 
+
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    </div>
 
 
 
