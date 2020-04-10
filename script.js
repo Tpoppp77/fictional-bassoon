@@ -10,7 +10,7 @@ function buildGoogleMapsQueryURL () {
     .trim();
     
 };
-//here-geocode api
+//here-third party api-geocode api
 function buildLandmarkQueryURL () {
     let landmarkURL = "https://geocoder.ls.hereapi.com/6.2/geocode.json?";
 
