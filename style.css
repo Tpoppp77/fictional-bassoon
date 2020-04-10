@@ -1,4 +1,46 @@
 body{
-    background: cornflowerblue;
+
+   padding: 100px;
+   text-align: center;
+background-image: url("https://images.hdqwalls.com/wallpapers/minimal-landscape-4k-ro.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h1{
+    font-size: 100px;
+    padding-top: 50px;
+}
+.input-field input[type=text]:focus + label {
+    color: #000
+}
+.input-field label {
+    color: #000
+}
+
+
+
+#MTN {
+    width: 250px;
+    margin-top: 1px;
     
+}
+
+.container{
+    background: linear-gradient(
+        to bottom,
+        white,
+        rgba(255, 0, 0, 0)
+      )
+    
+
+}
+
+textarea{
+    width: 400px;
+    position: center;
+}
+
+#searchContent{
+    margin: 50px;
 }
